@@ -1,0 +1,68 @@
+#section-1{
+    /*white-space: pre-line;*/
+    padding-top:30px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:120px;
+    background-color:rgb(38, 36, 77);
+    color:white;
+}
+
+.logo {
+    height:60px;
+    width:auto;
+}
+.section1image {
+    display:flex;
+    height:200px;
+    width: auto;
+}
+
+#header {
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    font-size: 20px;
+    
+    
+}
+.linkedin-button {
+    margin-top: 50px;
+    display:block;
+  
+    background-color: #080e82;
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+    border-radius: 12px;
+}
+
+
+.below-header {
+    display:flex;
+    margin-top:70px;
+    justify-content:space-between;
+     
+}
+.heading{
+    font-size:30px;
+}
+.subtext{
+    margin-top: 10px;
+}
+
+* {
+    font-family:monaco;
+    text-decoration:none;
+    color:white;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
