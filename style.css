@@ -123,15 +123,23 @@
     display:flex;
     flex:1;
     flex-direction:row;
+
     padding-top:30px;
-    padding-left:130px;
-    padding-right:130px;
+    padding-left:100px;
+    padding-right:100px;
     padding-bottom:20px;
+
     background-color:#e9cbff;
+
     margin-top:80px;
     margin-left:250px;
     margin-right:250px;
     margin-bottom:50px;
+
+    justify-content:space-between;
+    gap:20px;
+
+    border-radius: 28px;
     
 
 }
@@ -140,11 +148,19 @@
     display:flex;
     flex:1;
     flex-direction:column;
+    justify-content: space-evenly;
+    background-color: #d8abda;
+    padding:8px;
+    border-radius: 8px;
 
 }
 .spotify {
     display:flex;
     width:300px;
     height:auto;
+}
+
+.s4heading {
+    font-size:20px;
 }
 
