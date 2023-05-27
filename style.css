@@ -66,3 +66,38 @@
     margin: 0;
     padding: 0;
   }
+
+.s2heading {
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+    color: black;
+    font-size: 25px;
+}
+
+.s2img{
+    height:120px;
+    width:auto;
+}
+
+.s2description {
+    font-size:20px;
+    color:rgb(24, 8, 46);
+    font-family:"Comic Sans MS";
+    margin-top: 10px;
+}
+
+.s2box2 {
+    display:flex;
+    justify-content:space-evenly;
+    flex:1;
+    margin-top:80px;
+    margin-bottom: 50px;
+    margin-left:110px;
+    margin-right: 110px;
+    text-align:center;
+}
+
+#section-2 { 
+    margin-bottom: 80px;
+}
