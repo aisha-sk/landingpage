@@ -1,10 +1,16 @@
+* {
+    font-family:monaco;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}
+    
 #section-1{
     /*white-space: pre-line;*/
     padding-top:30px;
     padding-left:200px;
     padding-right:200px;
     padding-bottom:120px;
-    background-color:rgb(38, 36, 77);
+    background-color:#e9cbff;
     color:white;
 }
 
@@ -24,21 +30,18 @@
     justify-content: space-between;
     font-size: 20px;
     
-    
 }
+
 .linkedin-button {
     margin-top: 50px;
     display:block;
-  
-    background-color: #080e82;
-    
+    background-color: #88a3e3;
     color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    
     border-radius: 12px;
 }
 
@@ -56,12 +59,6 @@
     margin-top: 10px;
 }
 
-* {
-    font-family:monaco;
-    text-decoration:none;
-    color:white;
-    
-}
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +80,6 @@
 .s2description {
     font-size:20px;
     color:rgb(24, 8, 46);
-    font-family:"Comic Sans MS";
     margin-top: 10px;
 }
 
@@ -100,4 +96,25 @@
 
 #section-2 { 
     margin-bottom: 80px;
+}
+
+#section-3 {
+
+    display:flex;
+    flex:1;
+    justify-content: center;
+    background-image:url(https://i.pinimg.com/originals/1a/9a/20/1a9a20cc06e7084d35a34f89ce756ad6.gif);
+    padding:150px;
+}
+
+.github {
+    margin-top:10px;
+    background-color: #b26db4;
+    /*bc82be*/
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 12px;
 }
