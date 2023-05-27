@@ -118,3 +118,33 @@
     font-size: 22px;
     border-radius: 12px;
 }
+
+#section-4 {
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    padding-top:30px;
+    padding-left:130px;
+    padding-right:130px;
+    padding-bottom:20px;
+    background-color:#e9cbff;
+    margin-top:80px;
+    margin-left:250px;
+    margin-right:250px;
+    margin-bottom:50px;
+    
+
+}
+
+.text {
+    display:flex;
+    flex:1;
+    flex-direction:column;
+
+}
+.spotify {
+    display:flex;
+    width:300px;
+    height:auto;
+}
+
