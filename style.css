@@ -1,5 +1,5 @@
 * {
-    font-family:monaco;
+    font-family:'Courier New', Courier, monospace;
     text-decoration:none;
     color:rgb(0, 0, 0);
 }
@@ -17,11 +17,13 @@
 .logo {
     height:60px;
     width:auto;
+    border-radius: 12px;
 }
 .section1image {
     display:flex;
     height:200px;
     width: auto;
+    border-radius: 12px;
 }
 
 #header {
@@ -96,6 +98,7 @@
 
 #section-2 { 
     margin-bottom: 80px;
+    
 }
 
 #section-3 {
