@@ -6,10 +6,10 @@
     
 #section-1{
     /*white-space: pre-line;*/
-    padding-top:30px;
-    padding-left:200px;
-    padding-right:200px;
-    padding-bottom:120px;
+    padding-top:10px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:10px;
     background-color:#e9cbff;
     color:white;
 }
@@ -24,6 +24,7 @@
     height:200px;
     width: auto;
     border-radius: 12px;
+    flex-wrap: wrap;
 }
 
 #header {
@@ -31,6 +32,7 @@
     flex:1;
     justify-content: space-between;
     font-size: 20px;
+    flex-wrap: wrap;
     
 }
 
@@ -50,15 +52,16 @@
 
 .below-header {
     display:flex;
-    margin-top:70px;
+    margin-top:20px;
     justify-content:space-between;
+    flex-wrap: wrap;
      
 }
 .heading{
     font-size:30px;
 }
 .subtext{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 * {
@@ -69,9 +72,10 @@
 .s2heading {
     display:flex;
     justify-content:center;
-    margin-top:100px;
+    margin-top:10px;
     color: black;
     font-size: 25px;
+    flex-wrap: wrap;
 }
 
 .s2img{
@@ -89,15 +93,16 @@
     display:flex;
     justify-content:space-evenly;
     flex:1;
-    margin-top:80px;
-    margin-bottom: 50px;
+    margin-top:40px;
+    margin-bottom: 25px;
     margin-left:110px;
     margin-right: 110px;
     text-align:center;
+    flex-wrap: wrap;
 }
 
 #section-2 { 
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     
 }
 
@@ -107,7 +112,8 @@
     flex:1;
     justify-content: center;
     background-image:url(https://i.pinimg.com/originals/1a/9a/20/1a9a20cc06e7084d35a34f89ce756ad6.gif);
-    padding:150px;
+    padding:110px;
+    flex-wrap: wrap;
 }
 
 .github {
@@ -128,22 +134,22 @@
     flex-direction:row;
 
     padding-top:30px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:10px;
+    padding-right:10px;
     padding-bottom:20px;
 
     background-color:#e9cbff;
 
-    margin-top:80px;
-    margin-left:250px;
-    margin-right:250px;
+    margin-top:5px;
+    margin-left:50px;
+    margin-right:50px;
     margin-bottom:50px;
 
     justify-content:space-between;
-    gap:20px;
+    gap:50px;
 
     border-radius: 28px;
-    
+    flex-wrap: wrap;
 
 }
 
@@ -155,16 +161,21 @@
     background-color: #d8abda;
     padding:8px;
     border-radius: 8px;
+    flex-wrap: wrap;
+    text-align:center;
+    
 
 }
 .spotify {
     display:flex;
     width:300px;
     height:auto;
+    flex-wrap: wrap;
 }
 
 .s4heading {
     font-size:20px;
+    text-align:center;
 }
 
 #footer{
